@@ -1,0 +1,166 @@
+.conteiner {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+nav {
+    margin-top: 5px;
+}
+
+body {
+    background: linear-gradient(red, black);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: left;
+}
+
+section {
+    color: white;
+    margin: auto auto 15%;
+}
+
+.card_own {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card_two {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_contact {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.contact {
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.number_phone {
+    margin-top: -15px;
+}
+
+.contact_res {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+.sectr_btn {
+    text-align: center;
+}
+
+.btn_ehe {
+    border-radius: 25px;
+    background-color: red;
+    color: white;
+    margin-top: 30px;
+}
+
+.btn_ehe:hover {
+    transition: 0.7s;
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 4px red;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.links_nav:hover {
+    transform: scale(1.2);
+}
+
+.logo_nav:hover {
+    transform: scale(1.2);
+}
+
+.logo_nav {
+    margin-top: -15px;
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+
+.links_nav {
+    margin-top: 15px;
+    margin-bottom: -15px;
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+
+.d-block {
+    max-height: 750px;
+    max-width: 500px;
+}
+
+.carousel-inner {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.caramba {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel {
+    max-width: 500px;
+}
+
+.img_header {
+    width: 70px;
+    height: 70px;
+}
+
+.main_profil p {
+    margin-left: 525px;
+    padding-top: 15px;
+    background-color: red;
+    width: 350px;
+    border-radius: 15px;
+}
+
+.main_profil button:hover {
+    transition: 0.7s;
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 4px red;
+}
+
+.main_profil button {
+    background-color: red;
+    color: white;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.main_profil {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.img_profil img {
+    width: 640px;
+    height: 360px;
+    border-radius: 15px;
+}
+
+.img_profil {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+}
