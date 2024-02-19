@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="../JS/JS.js"></script>
+    <title>AH-wik</title>
+</head>
+
+<body>
+    <header>
+        <div class="conteiner">
+            <div class="links">
+                <a class="logo_nav" href=""><img class="img_header" src="../img/185af67b48b4d158.png" alt=""></a>
+                <a class="links_nav" href="../index.html">Главная</a>
+                <a class="links_nav" href="o_nas.html">О нас</a>
+                <a class="links_nav" href="../index.html#popnlur">Популярное</a>
+                <a class="links_nav" href="profil.html">Профиль</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h1>Профиль</h1>
+            <div class="conteiner">
+                <div class="main_profil">
+                    <p id="name">Имя</p>
+                    <p id="messeg">Фамилия</p>
+                    <p id="age">Возраст</p>
+                    <p id="mail">Почта</p>
+                    <button onclick="myFunction()">Заполнить</button>
+                </div>
+                <div class="img_profil">
+                    <img class="" src="../img/49409.jpg" alt="">
+                    <img class="" src="../img/image.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="conteiner">
+            <div class="footer_contact">
+                <div class="contact_res">
+                    <ul class="contact_res">
+                        <li>
+                            <p>Ресурсы</p>
+                        </li>
+                        <li><a class="contact_res" href="">Служба поддержки</a></li>
+                        <li><a class="contact_res" href="">Отзывы и предложения</a></li>
+                        <li><a class="contact_res" href="">Сообщить об ошибке</a></li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <ul class="contact">
+                        <li>
+                            <p class="number_phone">номер телефона: +7 (000) 000 00 00</p>
+                        </li>
+                        <li>
+                            <p class="number_phone">второй номер телефона: +7 (000) 000 00 00</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function myFunction() {
+            let person = prompt("Введите ваше имя");
+            if (person != null) {
+                document.getElementById("name").innerHTML = person;
+            }
+
+            let messeg = prompt("Введите вашу фамилию");
+            if (messeg != null) {
+                document.getElementById("messeg").innerHTML = messeg;
+            }
+
+            let age = prompt("Введите ваш возраст");
+            if (age != null) {
+                document.getElementById("age").innerHTML = age;
+            }
+
+            let mail = prompt("Введите вашу почту", '@mail.com');
+            if (mail != null) {
+                document.getElementById("mail").innerHTML = mail;
+            }
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
